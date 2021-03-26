@@ -1,0 +1,81 @@
+
+
+
+.wrapper{
+	margin: 0 auto;
+    background-image: url(../img/insideview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    width:100%;
+
+}
+
+
+
+
+
+/* sign up form start */
+
+.Banner{
+ /* border: 1px solid red; */
+ padding-top: 30px;
+}
+
+.Sign-up-form{
+    margin: 0px auto 30px;
+    width:350px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background-color: #ECE0D1;
+    padding: 20px;
+    text-align: center;
+    border-radius: 1em;
+}
+
+.input-box{
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px 0;
+    width: 100%;
+    border-color: #ECE0D1;
+    outline: none;
+}
+
+.Sign-up-form p{
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.Sign-up-form button{
+    background-color: #614C3F;
+    color: #ECE0D1;
+    margin: 1rem;
+}
+.Sign-up-form button:hover{
+    background-color: #859D7C;
+
+}
+
+.fb-btn:hover{
+    background-color: #1778F2;
+}
+
+
+.checkbox_tick{
+    margin-right: 5px;
+}
+
+
+
+
+@media(max-width:992px) {
+    .Sign-up-form img {
+        height: 9rem;
+    }
+}
+
+@media(max-width:767px) {
+    .Sign-up-form img {
+        height: 6rem;
+    }
+}

@@ -1,0 +1,269 @@
+
+/* Swiper Start */
+
+.swiper-container {
+    width: 100%;
+
+}
+
+.swiper-container img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+/* Swiper end */
+
+
+
+/* section 1 Starts */
+
+h1{
+  font-size: 36px;
+  display: inline-block;
+  /* border: 1px solid red; */
+  /* padding-right: 10px; */
+  font-weight: bold;
+  /* margin-top: 2rem; */
+}
+
+h2{
+  display: inline-block;
+  font-size: 20px;
+  color: #859D7C;
+  font-weight: bold;
+  /* border: 1px solid green; */
+
+}
+
+.section1 img{
+  /* border: 1px solid green; */
+  /* width:100%; */
+
+}
+
+/* section2 Starts */
+/* .grid-container1 {
+    width:100%;
+    cursor: pointer;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    gap: 0 0.2rem;
+    grid-template-areas:
+    "Section1Left Section1Mid Section1right";
+    border: 1px solid green;
+
+}
+  
+.Section1Left { 
+    grid-area: Section1Left; }
+  
+.Section1Mid { 
+    grid-area: Section1Mid; }
+  
+.Section1right { 
+    grid-area: Section1right; 
+} */
+
+.grid-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid-container1 img{
+    margin:0.2rem;
+}
+
+
+.grid-container1 a{
+    display: block;
+    text-align: center;
+    /* border:1px solid red; */
+    font-size: 1.1rem;
+
+}
+
+/*Section  text float over image  */
+
+.image_a{
+    position:relative;
+    display: inline-block;
+    /* border: 1px solid red; */
+}
+
+.image_a_txt {
+    position: absolute;
+    display: inline-block;
+    left:1rem;
+    bottom: 2rem;
+    /* border: 1px solid blue; */
+    color: #614c3f;
+    font-size: 1.5rem;
+    text-shadow: #614c3f 0.1em 0.1em 0.2em;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+.image_a_txt:hover {
+    color: white;
+}
+
+
+.grid-container1 img {
+    margin: 0.5rem;
+    transition: all 0.5s ease-in-out;
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    -webkit-transform: translate(0px, 0px) rotate(0deg) skew(-6deg, 0deg) scale(1, 1);
+    -moz-transform: translate(0px, 0px) rotate(0deg) skew(-6deg, 0deg) scale(1, 1);
+    -o-transform: translate(0px, 0px) rotate(0deg) skew(-6deg, 0deg) scale(1, 1);
+    -ms-transform: translate(0px, 0px) rotate(0deg) skew(-6deg, 0deg) scale(1, 1);
+    transform: translate(0px, 0px) rotate(0deg) skew(-6deg, 0deg) scale(1, 1);
+
+}
+
+.grid-container1 img:hover {
+    border-radius: 25% 7%;
+    box-shadow: -20px 18px 27px #333333;
+    -webkit-box-shadow: -20px 18px 27px #333333;
+    -moz-box-shadow: -20px 18px 27px #333333;
+}
+
+
+
+
+/*Section  text float over image  */
+
+/* section3 Starts */
+
+.grid-container2 {
+    margin: 2rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px 5px;
+    grid-template-areas:
+      "MealTopLeft MealTopMid MealTopRight"
+      "MealMidLeft MealMidMid MealMidRight"
+      "MealBottomLeft MealBottomMid MealBottomRight";
+}
+  
+.MealTopLeft { 
+    grid-area: MealTopLeft; 
+}
+  
+.MealTopMid { 
+      grid-area: MealTopMid; 
+}
+  
+.MealTopRight { 
+    grid-area: MealTopRight; 
+}
+  
+.MealMidLeft { grid-area: MealMidLeft; }
+  
+.MealMidMid { grid-area: MealMidMid; }
+  
+.MealMidRight { 
+    grid-area: MealMidRight;
+}
+  
+.MealBottomLeft { 
+    grid-area: MealBottomLeft;
+}
+  
+.MealBottomMid {
+    grid-area: MealBottomMid;
+}
+  
+.MealBottomRight {grid-area: MealBottomRight;
+}
+  
+
+
+
+/* section4 Starts */
+.grid-container3 {
+    margin-top: 2rem;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 5px;
+    grid-template-areas:
+      "Section3Left Section3Mid Section3right";
+}
+  
+.Section3Left { 
+    grid-area: Section3Left;
+}
+  
+.Section3Mid {grid-area: Section3Mid; 
+}
+  
+.Section3right { 
+    grid-area: Section3right;
+}
+
+.grid-container3 a{
+    display: block;
+    text-align: center;
+    /* border:1px solid red; */
+    font-size: 18px;
+}
+
+
+
+/* section5 Starts */
+.grid-container4 {
+    margin-top: 20px;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 5px;
+    grid-template-areas:
+      "Section4Left Section4Mid Section4right";
+}
+  
+.Section4Left { 
+    grid-area: Section4Left; 
+}
+  
+.Section4Mid { 
+    grid-area: Section4Mid;
+}
+
+.Section4right { 
+    grid-area: Section4right;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+
+
+
+
+}
+
+
+@media (max-width: 992px) {
+
+
+
+}
+
+
+@media(max-width:767px) {
+
+
+}

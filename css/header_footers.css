@@ -1,0 +1,435 @@
+/* Nav bar start */
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: #859D7C;
+    display:inline-block;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color:#614C3F;
+}
+
+li, a, button{
+    text-decoration: none;
+}
+
+
+img.logo{
+    height: 4rem;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+
+.logoLink{
+    margin-right: auto;
+    /*display:inline-block;*/
+}
+
+
+.logoLink h1{
+    display:inline-block;
+    vertical-align: middle;
+    font-size: 36px;
+    font-weight:bold;
+    padding-left: 0.2rem;
+
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.5rem 2rem 0 2rem;
+    background-color: #ECE0D1;
+
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0 1rem;
+/*    border: 1px solid red;*/
+    font-weight: bolder;
+}
+
+
+.nav_links li:hover{
+    animation: bounce 0.4s;
+   
+}
+
+.currentPage{
+    border-bottom: 9px double #114e40;
+		color:#859D7C;
+  }
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  80% {
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+  }
+}
+
+
+
+
+
+.nav_links li a:hover{
+    color: #859D7C;
+    transition: all 0.3s;
+    
+}
+
+button{
+    padding:9px 25px; 
+    background-color: #614C3F;
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    
+    margin-left: 20px;
+}
+
+button:hover{
+    background-color: #859D7C;
+    transition: all 0.3s;
+}
+
+.nav_links span:hover{
+    color:#859D7C;
+}
+
+.nav_links .material-icons{
+    position: relative;
+    top: 5px;
+    /* border: 1px solid red; */
+}
+
+/* Nav bar end */
+
+
+
+.h1h2title h1 {
+    display: inline-block;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    padding-left: 1rem;
+}
+
+
+
+/* Hamburger Start */
+
+
+
+
+/* Hamburger end */
+
+
+
+
+.wrapper{
+	/* width: 1200px; */
+	margin: 0 auto;
+}
+
+
+/* Footer Start*/
+
+.Footer{
+	display: grid;
+    background-color: #ECE0D1;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	gap: 0 0;
+}
+
+
+
+
+.Footer p{
+	padding: 5px 10px;
+	line-height: 1.5;
+	letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.Footer a{
+	text-decoration: none;
+	list-style: none;
+}
+
+
+
+
+h6{
+    background-color: #859D7C;
+    text-align: center;
+    padding: 0.5em 0.5em;
+    font-size: 0.5em;
+}
+
+.Footer a{
+	text-decoration: none;
+	list-style: none;
+    font-weight: bold;
+    color: #859D7C;
+    /*border: 1px solid red;*/
+    width: 25px;
+    padding-left: 1em;
+}
+
+.Footer img:hover{
+    transform: scale(1.2);
+    transition: 0.8s;
+}
+
+
+/*foodpanda & Uber eats logo part*/
+.Footer__block img{
+    border-radius: 0.5em;
+    width: 2.5rem;
+    margin: 0.5em;
+    margin-left: 0.2em;
+    cursor: pointer;
+}
+
+/* footer facebook icon*/
+.material-icons{
+    cursor: pointer;
+    margin: 0.3em;
+    font-size: 2.5rem!important;
+}
+
+.material-icons:hover{
+    transform: scale(1.5);
+    transition: 0.8s;
+}
+
+.Footer__block h5{
+    padding: 0.5em 0 0 0.5em;
+    font-weight: bold;
+}
+
+/* Footer end*/
+
+
+/*  relax section start*/
+
+.relaxSection {
+  text-align: center;
+  margin: 3rem
+}
+
+.relaxWords {
+  padding: 3em;
+}
+
+.RestIntro h1{
+  display: inline-block;
+}
+/*  relax section Ends */
+
+/* Float Text Starts */
+/* .floatText {
+    position: absolute;
+    bottom: 20px;
+    left: 1em;
+   
+    color: white;
+    z-index: 2;
+    text-shadow: #859D7C 0.1em 0.1em 0.2em;
+} */
+
+/* Float Text Ends */
+
+
+
+
+
+@media (min-width: 1200px) {
+
+  .popular_top {
+    /* border: 1px solid green; */
+    width: 100%;
+
+  }
+
+
+}
+
+
+@media (max-width: 992px) {
+
+  .popular_section {
+    width: 100%;
+
+  }
+
+  img.logo {
+    height: 3rem;
+
+  }
+
+  .logoLink h1 {
+    font-size: 1.8rem;
+  }
+
+  .nav_links li {
+    font-size: 0.9rem;
+  }
+
+}
+
+
+@media(max-width:767px) {
+
+  img.logo {
+    height: 2rem;
+
+  }
+
+  .logoLink h1 {
+    font-size: 36px;
+
+  }
+
+  .nav_links li {
+    font-size: 0.8rem;
+  }
+
+  .nav_auto_hide h1 {
+    font-size: 1rem;
+  }
+
+  header {
+    padding: 0.5rem 2rem 0 1rem;
+  }
+
+  .nav_links li {
+    padding: 0 0.3rem;
+  }
+
+  .nav_auto_hide h6 {
+    padding: 0.4rem 0.4rem;
+
+  }
+
+  .relaxSection {
+    margin: 2rem 0 2rem 0;
+  }
+
+  .popular_section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "popular_top"
+      "popular_down_left"
+      "popular_down_right";
+  }
+
+  .popular_top {
+    grid-area: popular_top;
+  }
+
+  .popular_down_left {
+    grid-area: popular_down_left;
+
+  }
+
+  .popular_down_right {
+    grid-area: popular_down_right;
+
+  }
+
+
+
+  .About {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "aboutMeal aboutMeal"
+      "aboutMeal aboutMeal"
+      "aboutDrink aboutDessert"
+      "aboutVenue aboutVenue"
+      "aboutVenue aboutVenue"
+      "aboutLocation aboutAboutUs";
+    max-width: 720px;
+    width: 100%;
+  }
+
+  .aboutMeal {
+    grid-area: aboutMeal;
+    background-repeat: no-repeat;
+  }
+
+  .aboutDrink {
+    grid-area: aboutDrink;
+    background-repeat: no-repeat;
+  }
+
+  .aboutDessert {
+    grid-area: aboutDessert;
+    background-repeat: no-repeat;
+  }
+
+  .aboutVenue {
+    grid-area: aboutVenue;
+    background-repeat: no-repeat;
+  }
+
+  .aboutLocation {
+    grid-area: aboutLocation;
+    background-repeat: no-repeat;
+  }
+
+  .aboutAboutUs {
+    grid-area: aboutAboutUs;
+    background-repeat: no-repeat;
+  }
+
+  .Footer {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .Footer__block {
+    /* padding-left: 2rem; */
+    text-align: center;
+  }
+
+
+}
